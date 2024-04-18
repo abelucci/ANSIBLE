@@ -35,6 +35,8 @@ Conexión ssh de forma segura hacia una VM linux en AZURE, creado por terraform:
 
   # **ENVIAR PLAYBOOK HACIA LA VM EN AZURE**
 * Conexión segura desde el inventory, indicar el directorio en donde se encuentra la llave en la VM client ansible.
+
+  ![1713401205857.png](./images/1713401205857.png)
 * Ejecutar el playbook:
 
   ![1713383924860.png](./images/1713288381921.png)
