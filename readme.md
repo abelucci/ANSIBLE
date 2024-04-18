@@ -6,7 +6,7 @@ Descargar el paquete previamente para poder realizar los playbooks.
 
 ---
 
-Conexión hacia una VM linux en AZURE, creado por terraform:
+Conexión ssh de forma segura hacia una VM linux en AZURE, creado por terraform:
 
 * Crear la llave publica/privada en mi cliente ansible:
 
@@ -23,7 +23,18 @@ Conexión hacia una VM linux en AZURE, creado por terraform:
 
   ![1713383924860.png](./images/1713287847553.png)
 * Para comprobar que se haya copiado correctamente, se debe visualizar la llave en el siguiente path de la VM linux en AZURE:
-* Verificamos la conexión:
+
+  ```
+
+  root/.ssh/authorized_keys
+  ```
+* Verificamos la conexión desde la VM cliente de ansible:
 
   ![1713383924860.png](./images/1713287652543.png)
+
+  # **ENVIAR PLAYBOOK HACIA LA VM EN AZURE**
+* Conexión segura desde el inventory, indicar el directorio en donde se encuentra la llave en la VM client ansible.
+* Ejecutar el playbook:
+
+  ![1713383924860.png](./images/1713288381921.png)
 *
