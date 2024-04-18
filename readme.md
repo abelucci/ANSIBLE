@@ -16,6 +16,7 @@ Conexión ssh de forma segura hacia una VM linux en AZURE, creado por terraform:
   ```
   cat ~/.ssh/id_rsa.pub
   ```
+
   ![1713383924860.png](./images/1713288017619.png)
 
   ![1713383924860.png](./images/1713287532871.png)
@@ -37,4 +38,10 @@ Conexión ssh de forma segura hacia una VM linux en AZURE, creado por terraform:
 * Ejecutar el playbook:
 
   ![1713383924860.png](./images/1713288381921.png)
+
+
+# **BIBLIOGRAFÍA**
+
+* [Ssh seguro hacia la VM linux en AZURE](https://learn.microsoft.com/en-us/azure/virtual-machines/linux/mac-create-ssh-keys)
+* [Creación de conexión segura ansible ](https://dev.to/rimelek/ansible-playbook-and-ssh-keys-33bo)
 *
